@@ -8,7 +8,7 @@ An extension. Summarize YouTube video transcripts, website texts and PDFs.
   - ```transformers```
   - ```bs4```
   - ```urllib```
-  - ```resource```
+  - ```pdfminer```
 
 ## Instructions
 - Run ```app.py``` to start the summarizer API.
