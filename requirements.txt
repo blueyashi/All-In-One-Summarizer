@@ -1,0 +1,7 @@
+beautifulsoup4==4.11.1
+Flask==2.0.1
+fpdf==1.7.2
+pdfminer==20191125
+pdfminer.six==20221105
+transformers==4.26.0
+youtube_transcript_api==0.4.1
