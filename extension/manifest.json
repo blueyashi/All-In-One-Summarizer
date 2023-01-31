@@ -1,0 +1,26 @@
+{ 
+    "manifest_version": 3,
+    "name": "Summarizer",
+    "description": "An extension to summarize youtube video transcript, website texts and pdf files",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+    
+    "action": {
+        "default_title": "Summarise this page",
+        "default_icon": {
+            "16": "images/icon.png",
+            "32": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}

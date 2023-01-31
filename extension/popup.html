@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All-In-One Summarizer</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            body {
+                width: max-content;
+                max-width: 800px;
+            }
+            button {
+                background-color: yellowgreen;
+                color: black;
+                border-radius: 8px;
+                width: max-content;
+                height: max-content;
+                padding: 10px;
+                font-size: large;
+                margin: auto;
+                display: block;
+                border-color: black;
+            }
+            button[disabled] {
+                background-color: grey;
+                color: white;
+                border-radius: 8px;
+                width: max-content;
+                height: max-content;
+                padding: 10px;
+                font-size: large;
+                margin: auto;
+                display: block;
+                border-color: lightblue;
+            }
+            p {
+                font-size: medium;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>All-In-One Summarizer</h1>
+        <button id="summarise" type="button">Summarize</button>
+        <br/>
+        <p id="output"></p>
+        <script src="popup.js"></script>
+    </body>
+</html>
