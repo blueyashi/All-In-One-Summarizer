@@ -12,5 +12,5 @@ An extension. Summarize YouTube video transcripts, website texts and PDFs.
 
 ## Instructions
 - Run ```app.py``` to start the summarizer API.
-- Load the custom extension into any Chromium browser.
+- Load the custom extension into any Chrome browser.
 - Go to any YouTube video (with CC), website, or PDF (downloaded onto the system and opened in the browser) and click on the extension logo to start summarizing.
